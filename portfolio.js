@@ -51,7 +51,7 @@
 
            $(modal).fadeIn('slow');
 
-           $('#modal-overlay,.modal-close,.close-button').off().click(function(){
+           $('#modal-overlay,.modal-close,.sp-close-button').off().click(function(){
                $('.work-modal').fadeOut('normal');
                $('#modal-overlay').fadeOut('normal',function(){
                    $('#modal-overlay').remove();
