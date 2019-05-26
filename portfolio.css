@@ -103,13 +103,13 @@ a {
     bottom: 10%;
     cursor: pointer;
     z-index: 9998;
-    
+
 }
 
 /*ここからpage-icon*/
 
 .section-title {
-    font-family:'Spinnaker', sans-serif; 
+    font-family:'Spinnaker', sans-serif;
     font-size: 42px;
 }
 
@@ -132,7 +132,7 @@ a {
 
 .top-section {
     width: 100%;
-    
+
 }
 
 .top-wrapper {
@@ -150,7 +150,7 @@ a {
     position: relative;
     text-align: center;
     padding: 25% 25% 25% 20%;
-    
+
 }
 
 
@@ -158,7 +158,7 @@ a {
     font-size: 4vw;
     font-family: 'Spinnaker', sans-serif;
     letter-spacing: .2em;
-    
+
 
 }
 
@@ -224,14 +224,14 @@ a {
 .love-section {
     margin-top: 210px;
     text-align: center;
-    
+
 }
 
 .cols{
     width: 90%;
     margin: 0 auto;
     margin-top: 100px;
-    
+
 }
 
 .col {
@@ -311,8 +311,8 @@ a {
     padding-right: 5vw;
     box-sizing: border-box;
     overflow: scroll;
-    
-    
+
+
 }
 
 .close-button {
@@ -402,7 +402,7 @@ a {
     border-radius: 2px;
     padding: .5vw 2.5vw;
     box-shadow: 0 4px 16px #e7e7e7;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .modal-close:hover {
@@ -423,7 +423,7 @@ a {
 
 
 .workslist {
-    width: 100%; 
+    width: 100%;
 }
 
 .item {
@@ -434,7 +434,7 @@ a {
     margin: 0 20px 40px 20px;
     border-radius: 12px;
     background-color: #fff;
-    
+
 }
 
 .eyecatch img {
@@ -445,8 +445,8 @@ a {
 .item-inner {
     text-align: left;
     padding: 0 5% 2%;
-    
-    
+
+
 }
 
 .title {
@@ -480,7 +480,7 @@ a {
 }
 
 
-.fa-twitter, .fa-facebook {
+.fa-twitter, .fa-facebook-f {
     font-size: 65px;
     color: #fff;
     position: absolute;
@@ -488,7 +488,7 @@ a {
     right: 0;
     bottom: 0;
     left: 0;
-    
+
 }
 
 
@@ -502,7 +502,7 @@ a {
 .contact-footing {
     font-size: 12px;
     display: none;
-    
+
 }
 
 .note {
@@ -523,7 +523,7 @@ a {
     max-width: 150px;
     margin: 0 auto;
     position: relative;
-    
+
 }
 
 .circle {
@@ -539,7 +539,7 @@ a {
     background-color: #3B5998;
 }
 .circle-n {
-    background-color: #41C9B3; 
+    background-color: #41C9B3;
 }
 
 
@@ -557,7 +557,7 @@ footer {
 
 
 /*ここからresponsive*/
-@media screen and (max-width: 1200px) {     
+@media screen and (max-width: 1200px) {
     .top-title {
         margin: 0 auto;
         text-align: center;
@@ -567,8 +567,8 @@ footer {
     .item {
         width: calc(33.333% - 40px);
     }
-    
-    
+
+
 }
 
 
@@ -576,31 +576,31 @@ footer {
     .fa-twitter {
         font-size: 6vw;
     }
-    
-    .fa-facebook {
+
+    .fa-facebook-f {
         font-size: 6vw;
     }
 }
 
 
-@media screen and (max-width: 1000px) {   
+@media screen and (max-width: 1000px) {
     .top-title {
         clear: both;
         position: relative;
         padding-top: 450px;
         margin: 0 auto;
     }
-    
+
     .main-title {
         font-size: 45px;
     }
-    
+
     .sub-title {
         font-size: 17px;
         line-height: 20px;
         text-align: center;
     }
-    
+
     .title-img {
         position: absolute;
         top: 15%;
@@ -609,12 +609,12 @@ footer {
         margin: auto;
         width: 220px;
     }
-    
-    
+
+
     .col img {
         width: 20vw;
     }
-    
+
     .item {
         width: calc(50% - 40px);
     }
@@ -622,29 +622,29 @@ footer {
 
 
 @media screen and (max-width: 900px) {
-    
 
-    
+
+
     .work-modal {
         width: 630px;
     }
-    
+
     .modal-inner {
         overflow: scroll;
     }
-    
+
     .modal-inner h2 {
         font-size: 13.5px;
     }
-    
+
     .modal-inner h3 {
         font-size: 9.9px;
     }
-    
+
     .modal-inner p {
         font-size: 9px;
     }
-    
+
 }
 
 
@@ -658,11 +658,11 @@ body {
 #kairu {
     width: 70px;
 }
-    
+
 #wataru {
     width: 60px;
 }
-    
+
 #tweet {
  	position: relative;
     position: fixed;
@@ -705,19 +705,19 @@ body {
 	border-left: 14px solid #e6e6e6;
  	z-index: 1;
 }
-    
+
 #kairu-change {
     position: absolute;
     right: 0;
     left: 0;
-    bottom: 10%; 
+    bottom: 10%;
 }
 
 input {
     border: .1px solid gray;
 }
-    
-    
+
+
 .top-title {
     clear: both;
     position: relative;
@@ -726,7 +726,7 @@ input {
     .main-title {
         font-size: 30px;
     }
-    
+
     .sub-title {
         font-size: 13px;
         line-height: 18px;
@@ -739,7 +739,7 @@ input {
         margin: 0 auto;
         position: absolute;
     }
-    
+
 .section-title {
     font-size: 30px;
 }
@@ -747,16 +747,16 @@ input {
 .section-subtitle {
     font-size: 13px;
 }
-    
+
 .prof-section {
     margin-top: 100px;
 }
-    
+
 .prof-description {
     font-size: 13px;
     width: 70%;
 }
-    
+
 .prof-description:after {
     content: url("img/yellow-figure-rp.png");
     position: absolute;
@@ -764,27 +764,27 @@ input {
     right: -10px;
     bottom: -14px;
 }
-    
-    
-    
+
+
+
     .love-section {
         margin-top: 100px;
     }
-    
+
     .cols{
         margin-top: 50px;
-        
+
     }
-    
+
     .col img {
         width: 55%;
     }
-    
+
     .col {
         width: 100%;
         padding-bottom: 10%;
     }
-    
+
     .love-heading {
         font-size: 14px;
         margin-top: -2px;
@@ -794,12 +794,12 @@ input {
     .love-footing {
         font-size: 12px;
         display: block;
-        
-        
+
+
 }
-    
+
     /*ここからmodal*/
-    
+
 .work-modal {
     width: 90%;
     height: 500px;
@@ -809,7 +809,7 @@ input {
     top: 8%;
 	z-index: 10000;
 }
-    
+
 .modal-img img {
     float: none;
     width: 50%;
@@ -817,7 +817,7 @@ input {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     margin-bottom: -10%;
-        
+
 }
 .close-button {
     display: block;
@@ -825,14 +825,14 @@ input {
     top: 10%;
     right: 10%;
     cursor: pointer;
-        
+
 }
-    
+
 .close-button img {
     width: 25px;
 }
-    
-    
+
+
     .modal-inner {
         width: 100%;
         float: none;
@@ -841,18 +841,18 @@ input {
         text-align: center;
 
     }
-    
+
     .modal-inner h3 {
         margin-top: -4%;
         margin-bottom: 8%
     }
-    
+
     .modal-inner p {
         margin-top: -3%;
         text-align: left;
         font-size: 12px;
     }
-    
+
     .modal-close {
         position: static;
         font-size: 11px;
@@ -868,30 +868,30 @@ input {
         padding: 6px 8px;
         display: block;
     }
-    
-    
+
+
     /*ここまでmodal*/
-    
-    
+
+
     .works-section {
         margin-top: 100px;
     }
-    
+
     .works-wrapper {
         padding: 60px;
     }
-    
+
     .item {
         width: 100%;
         float: none;
         margin: 0 0 30px 0;
-        
+
     }
-    
+
     .contact-boxes {
         margin-top: 50px;
     }
-    
+
 
     .contact-text {
         margin-top: -10px;
@@ -902,11 +902,11 @@ input {
     .contact-footing {
         display: none;
     }
-    
+
     footer {
         margin-top: 300px;
     }
-    
+
     .footer-text {
         font-size: 10px;
     }
@@ -916,9 +916,4 @@ input {
     .work-modal {
         height: 440px;
     }
-    
-    
-    
-    
 }
-
