@@ -45,13 +45,21 @@
        //ここからmodal
 
        $('.modal-open').on('click', function(){
-           $('body').append("<div id= 'modal-overlay'></div>");
+				 	 current_scrollY = $( window ).scrollTop();
+           $('body').append("<div id= 'modal-overlay'><span class='modal-close'><img src='img/times.svg'></div></div>");
            $('#modal-overlay').fadeIn('slow');
+					 $('body').css({
+						 position: 'fixed',
+						 top: -1 * current_scrollY
+					 });
+					 // data-targetの内容をIDにしてmodalに代入
            var modal = '#' + $(this).attr('data-target');
 
            $(modal).fadeIn('slow');
 
            $('#modal-overlay,.modal-close,.sp-close-button').off().click(function(){
+						   $('body').attr( { style: '' } );
+    		 			 $('html, body').prop( { scrollTop: current_scrollY } );
                $('.work-modal').fadeOut('normal');
                $('#modal-overlay').fadeOut('normal',function(){
                    $('#modal-overlay').remove();
@@ -59,6 +67,7 @@
            });
 
        });
+
 
         //ここまでmodal
 
